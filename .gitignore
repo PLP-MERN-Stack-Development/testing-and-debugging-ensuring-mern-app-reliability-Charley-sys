@@ -1,0 +1,25 @@
+# Environment variables 
+.env 
+.env.local 
+.env.*.local 
+ECHO is on.
+# Dependencies 
+node_modules/ 
+*/node_modules/ 
+ECHO is on.
+# Build outputs 
+build/ 
+dist/ 
+coverage/ 
+ECHO is on.
+# Logs and runtime files 
+*.log 
+npm-debug.log* 
+ECHO is on.
+# IDE files 
+.vscode/ 
+.idea/ 
+ECHO is on.
+# OS files 
+.DS_Store 
+Thumbs.db 
